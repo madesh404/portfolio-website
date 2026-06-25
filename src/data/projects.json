@@ -1,6 +1,6 @@
 [
   {
-    "title": "Awesome Website",
+    "title": "Portfolio Website",
     "description": "A high-performance, SEO-optimized web application built with modern frameworks to showcase technical expertise.",
     "images": ["astro-01.webp", "astro-02.jpeg"],
     "tech": ["Astro", "Tailwind"],
@@ -16,5 +16,14 @@
     "platforms": ["apple-ios", "android"],
     "link": "https://github.com/nbakh16/career-portfolio-template",
     "category": "Hobby"
+  },
+  {
+    "title": "Complete CPU Implementation",
+    "description": "A comprehensive CPU implementation project that demonstrates a deep understanding of computer architecture, instruction set design, and low-level programming.",
+    "images": ["astro-02.jpeg", "#"],
+    "tech": ["VHDL", "Quartus II", "ModelSim", "FPGA"],
+    "platforms": ["windows"],
+    "link": "https://github.com/nbakh16/career-portfolio-template",
+    "category": "Hardware Design"
   }
 ]
