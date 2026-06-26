@@ -14,8 +14,8 @@ const navItems: NavItem[] = [
     icon: `mdi:home`,
   },
   {
-    label: "Career",
-    href: "#career",
+    label: "Experience",
+    href: "#experience",
     icon: `mdi:work`,
   },
   {
@@ -24,8 +24,8 @@ const navItems: NavItem[] = [
     icon: `mdi:computer`,
   },
   {
-    label: "Tech",
-    href: "#tech",
+    label: "Skills",
+    href: "#skills",
     icon: `mdi:code-tags`,
   },
   // {
@@ -44,10 +44,16 @@ const navItems: NavItem[] = [
   <ThemeToggle />
 </div>
 
+<div class="fixed top-6 left-6 z-50 reveal-content" style="animation-delay: 700ms;">
+  <a href="#home" class="text-lg font-bold tracking-tight" style="color: var(--color-maintext)">
+    Madesh Arulananthan
+  </a>
+</div>
+
 <div class="flex justify-center w-full">
   <nav
     id="main-nav"
-    class="fixed left-1/2 -translate-x-1/2 z-20 border-[1.2px] border-transparent transition-all duration-500 ease-in-out md:top-6 md:bottom-auto bottom-0 w-[80%]"
+    class="fixed left-1/2 -translate-x-1/2 z-20 border-[1.2px] border-transparent transition-all duration-500 ease-in-out md:top-6 md:bottom-auto bottom-0 w-[65%]"
   >
     <div class="container mx-auto flex justify-center items-center p-3 reveal-content" style="animation-delay: 700ms;">
       <ul
@@ -244,7 +250,7 @@ const navItems: NavItem[] = [
       const easeProgress = 1 - Math.pow(1 - scrollProgress, 4);
 
       const minWidth = 620;
-      const maxWidth = window.innerWidth * 0.8;
+      const maxWidth = window.innerWidth * 0.65;
       const currentWidth = maxWidth - (maxWidth - minWidth) * easeProgress;
 
       if (window.innerWidth >= 768) {
