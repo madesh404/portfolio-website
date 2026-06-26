@@ -22,8 +22,17 @@
     "description": "A comprehensive CPU implementation project that demonstrates a deep understanding of computer architecture, instruction set design, and low-level programming.",
     "images": ["astro-02.jpeg", "#"],
     "tech": ["VHDL", "Quartus II", "ModelSim", "FPGA"],
-    "platforms": ["windows"],
+    "platforms": ["chip"],
     "link": "https://github.com/nbakh16/career-portfolio-template",
     "category": "Hardware Design"
+  },
+  {
+    "title": "eebot Robot Maze Solver",
+    "description": "Line-following robot that uses sensors and algorithms to navigate through a maze, demonstrating skills in robotics, control systems, and problem-solving.",
+    "images": ["astro-02.jpeg", "#"],
+    "tech": ["Assembly", "CodeWarrior", "Freesacle HCS12"],
+    "platforms": ["robot"],
+    "link": "https://github.com/nbakh16/career-portfolio-template",
+    "category": "Embedded Systems"
   }
 ]
