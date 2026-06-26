@@ -1,26 +1,38 @@
-[
-  {
-    "company": "Demo Company",
-    "role": "Lead Software Engineer",
-    "period": "Oct 2025 - Present",
-    "type": "Full time job",
-    "description": "Leading cross-platform mobile development using Flutter and FastAPI. Focused on scalable system design and high-performance data processing.",
-    "skills": ["Leading", "Collaboration"]
-  },
-  {
-    "company": "Demo Company",
-    "role": "Full-stack Developer",
-    "period": "Sep 2023 - Sep 2025",
-    "type": "Full time job",
-    "description": "Specializing in Business Research Methods and Strategic HRM. Applying analytical frameworks to human capital management.",
-    "skills": ["React", "Node.js", "PostgreSQL", "Docker"]
-  },
-  {
-    "company": "Demo University of Tech",
-    "role": "BSc in Computer Science",
-    "period": "Jun 2020 - Jun 2024",
-    "type": "Student",
-    "description": "Specializing in Business Research Methods and Strategic HRM. Applying analytical frameworks to human capital management.",
-    "skills": ["C++", "OOP", "Problem Solving"]
-  }
-]
+{
+  "education": [
+    {
+      "company": "Toronto Metropolitan University",
+      "role": "BEng in Computer Engineering",
+      "period": "2023 - 2028",
+      "type": "Student",
+      "description": "Coursework spanning computer architecture, operating systems, signals & systems, and control systems. Active member of GDG on Campus and TMU Velocity F1Tenth RoboRacer team.",
+      "skills": ["VHDL", "C", "Java", "Python", "OOP", "MIPS Assembly"]
+    },
+    {
+      "company": "SATEC @ W.A. Porter Collegiate Institute",
+      "role": "Highschool Diploma",
+      "period": "2019 - 2023",
+      "type": "Student",
+      "description": "Graduated with a 96% overall average from the speacialized STEM program. Specialist High Skills Major (SHSM) in Information and Communications Technology (ICT). Honor Roll Student all 4 years. Received the Computer Engineering Award for highest overall achieved. Finance Director of the Student Council. Executive member of the Atheletic Council. Participated in varsity baseball, senior basketball, and track and field. Executive member of TSA (Tamil Students Association).",
+      "skills": ["STEM", "SHSM"]
+    }
+  ],
+  "work": [
+    {
+      "company": "TMU Velocity",
+      "role": "Robotics Software Engineer",
+      "period": "Jan 2026 - Present",
+      "type": "Design Team",
+      "description": "Implementing autonomous racing algorithms in ROS 2 including Pure Pursuit path following. Working within a WSL + Docker environment using the F1Tenth gym simulator.",
+      "skills": ["ROS 2", "Python", "Docker", "WSL", "Control Systems"]
+    },
+    {
+      "company": "Google Developers Group @ TMU",
+      "role": "Finance Director",
+      "period": "Nov 2025 - Present",
+      "type": "Executive",
+      "description": "Managing finances and budgeting for the chapter, and co-organizing the annual hackathon.",
+      "skills": ["Budgeting", "Event Planning", "Leadership"]
+    }
+  ]
+}
