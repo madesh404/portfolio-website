@@ -29,7 +29,8 @@
       "title": "Database",
       "skills": [
         { "name": "SQLite", "icon": "skill-icons:sqlite" },
-        { "name": "PostgreSQL", "icon": "skill-icons:postgresql-dark" }
+        { "name": "PostgreSQL", "icon": "skill-icons:postgresql-dark" },
+        { "name": "Arduino", "icon": "skill-icons:arduino" }
       ]
     }
   ]
